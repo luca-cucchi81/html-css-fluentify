@@ -91,13 +91,34 @@ a{
     line-height: 2;
 }
 
-.box{
-    width: 100%;
-    background-color: orange;
+.testo p{
+    color: gray;
 }
+
+ .box{                     /*stile elementi terzo container */
+     width: 100%;
+     margin-top: 50px;
+     display: inline-block;
+     }
 
 .content{
     width: 33.33%;
+    padding: 0 30px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.content img{
     height: 200px;
-    background-color: cyan;
+    object-fit: contain;
+}
+
+.content p, hr{
+    color: gray;
+}
+
+hr{
+    margin: 10px 120px;
+    border: 1px solid;
 }
