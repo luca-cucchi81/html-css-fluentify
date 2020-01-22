@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+.container-fullwidth-primo{    /* Stile per i 3 container-fullwidth */
+    background-color: #0D325A;
+}
+.container-fullwidth-secondo{    /*DA CANCELLARE*/
+    background-color: gray;
+}
+
+.container-maxwidth{       /*stile unico per container centrale*/
+    width: 80%;
+    height: 300px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{                    /* Stile per elementi primo container */
+    width: 100%;
+    padding: 0 30px;
+    padding-top: 3px;
+}
+
+header img, header nav, nav li{
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+}
+
+.destro{                    /*stile elementi a destra dell'header*/
+    display: inline-block;
+    float: right;
+    line-height: 50px;
+}
+
+.destro input{
+    margin-left: 10px;
+    padding: 3px 10px;
+}
+
+nav, nav li{
+    margin-left: 20px;
+}
+
+a{                           /*stile link*/
+    text-decoration: none;
+    list-style: none;
+    color: #ececec;
+}
