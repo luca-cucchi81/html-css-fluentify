@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Alata', sans-serif;
   }
 
   .clearfix:after {
@@ -14,13 +13,10 @@
 .container-fullwidth-primo{    /* Stile per i 3 container-fullwidth */
     background-color: #0D325A;
 }
-.container-fullwidth-secondo{    /*DA CANCELLARE*/
-    background-color: gray;
-}
+
 
 .container-maxwidth{       /*stile unico per container centrale*/
     width: 80%;
-
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -73,10 +69,10 @@ a{
 #titolo h1{
     font-size: 40px;
     color: #ececec;
+    margin-bottom: 20px;
 }
 
 #titolo a{
-    margin-top: 20px;
     border: 1px solid #ececec;
     background-color: #7FB802;
     color: #ececec;
@@ -87,4 +83,21 @@ a{
     float: right;
     width: 50%;
     height: 50%;
+}
+
+.testo{                      /*stile testo container centrale*/
+    margin-top: 30px;
+    text-align: center;
+    line-height: 2;
+}
+
+.box{
+    width: 100%;
+    background-color: orange;
+}
+
+.content{
+    width: 33.33%;
+    height: 200px;
+    background-color: cyan;
 }
