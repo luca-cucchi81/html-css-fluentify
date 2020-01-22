@@ -24,7 +24,7 @@
 
 header{                    /* Stile per elementi primo container */
     padding: 0 20px;
-    padding-top: 3px;
+    padding-top: 14px;
 
 }
 
@@ -80,7 +80,7 @@ a{
 #titolo h1{
     font-size: 40px;
     color: #ececec;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #titolo a{
@@ -94,10 +94,10 @@ a{
 }
 #uomini{
     position: relative;
-    left: 15%;
+    left: 20%;
     float: right;
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 40%;
 }
 
 .testo{                      /*stile testo container centrale*/
@@ -142,8 +142,9 @@ hr{
     border: 1px solid;
 }
 
-header a:hover{
+header a:hover, #titolo a:hover{
     border: 1px solid orange;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: orange;
+    opacity: 0.9;
 }
