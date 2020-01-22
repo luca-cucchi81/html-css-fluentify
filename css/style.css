@@ -142,7 +142,7 @@ hr{
     border: 1px solid;
 }
 
-header a:hover, #titolo a:hover{
+header a:hover, #titolo a:hover, #piano:hover{   /*effetti vari*/
     border: 1px solid orange;
     border-radius: 3px;
     background-color: orange;
