@@ -26,7 +26,6 @@
 }
 
 header{                    /* Stile per elementi primo container */
-    width: 100%;
     padding: 0 20px;
     padding-top: 3px;
 
@@ -45,6 +44,10 @@ header img, header nav, nav li{
     font-size: small;
 }
 
+.destro #piano{
+    background-color: #7FB802;
+    color: #ececec;
+}
 
 nav{                        /*stile nav e link*/
     margin-left: 40px;
@@ -52,9 +55,9 @@ nav{                        /*stile nav e link*/
 
 a{
     text-decoration: none;
-    padding: 0 5px;
+    padding: 0 10px;
     list-style: none;
-    font-size: 12px;
+    font-size: 14px;
     color: #ececec;
 }
 
@@ -64,11 +67,23 @@ a{
 
 #titolo{
     display: inline-block;
+    transform: translateY(20%);
 }
 
+#titolo h1{
+    font-size: 40px;
+    color: #ececec;
+}
+
+#titolo a{
+    margin-top: 20px;
+    border: 1px solid #ececec;
+    background-color: #7FB802;
+    color: #ececec;
+}
 #uomini{
     position: relative;
-    left: 100px;
+    left: 15%;
     float: right;
     width: 50%;
     height: 50%;
