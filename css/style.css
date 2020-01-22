@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
   }
 
   .clearfix:after {
@@ -40,8 +41,18 @@ header img, header nav, nav li{
     font-size: small;
 }
 
-.destro #piano{
+#login{
+    border: 1px solid #ececec;
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin-left: 10px;
+}
+ #piano{
     background-color: #7FB802;
+    border-radius: 3px;
+    padding: 6px 10px;
+    font-size: small;
+    font-weight: bold;
     color: #ececec;
 }
 
@@ -51,9 +62,9 @@ nav{                        /*stile nav e link*/
 
 a{
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 5px;
     list-style: none;
-    font-size: 14px;
+    font-size: small;
     color: #ececec;
 }
 
@@ -73,7 +84,10 @@ a{
 }
 
 #titolo a{
-    border: 1px solid #ececec;
+    border-radius: 3px;
+    padding: 15px 10px;
+    font-size: small;
+    font-weight: bold;
     background-color: #7FB802;
     color: #ececec;
 }
@@ -103,7 +117,7 @@ a{
 
 .content{
     width: 33.33%;
-    padding: 0 30px;
+    padding: 0 60px;
     display: inline-block;
     text-align: center;
     float: left;
@@ -112,13 +126,19 @@ a{
 .content img{
     height: 200px;
     object-fit: contain;
+    margin-bottom: 50px;
 }
 
 .content p, hr{
     color: gray;
+    text-align: center;
 }
 
+.content h4{
+    font-size: 20px;
+    color: #7FB802;
+}
 hr{
-    margin: 10px 120px;
+    margin: 20px 100px;
     border: 1px solid;
 }
