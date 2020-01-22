@@ -49,6 +49,7 @@ header img, header nav, nav li{
 }
  #piano{
     background-color: #7FB802;
+    border: 1px solid #7FB802 ;
     border-radius: 3px;
     padding: 6px 10px;
     font-size: small;
