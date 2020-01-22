@@ -110,28 +110,26 @@ a{
 }
 
  .box{                     /*stile elementi terzo container */
-     width: 100%;
      margin-top: 50px;
      display: inline-block;
      }
 
 .content{
     width: 33.33%;
-    padding: 0 60px;
+    padding: 0 50px;
     display: inline-block;
     text-align: center;
     float: left;
 }
 
 .content img{
-    height: 200px;
+    height: 150px;
     object-fit: contain;
     margin-bottom: 50px;
 }
 
 .content p, hr{
     color: gray;
-    text-align: center;
 }
 
 .content h4{
