@@ -38,7 +38,7 @@ header img, header nav, nav li{
     display: inline-block;
     float: right;
     line-height: 50px;
-    font-size: small;
+    text-transform: uppercase;
 }
 
 #login{
@@ -52,17 +52,16 @@ header img, header nav, nav li{
     border: 1px solid #7FB802 ;
     border-radius: 3px;
     padding: 6px 10px;
-    font-size: small;
-    font-weight: bold;
     color: #ececec;
 }
 
 nav{                        /*stile nav e link*/
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 a{
     text-decoration: none;
+    text-transform: uppercase;
     padding: 0 5px;
     list-style: none;
     font-size: small;
@@ -89,6 +88,7 @@ a{
     padding: 15px 10px;
     font-size: small;
     font-weight: bold;
+    text-transform: uppercase;
     background-color: #7FB802;
     color: #ececec;
 }
@@ -140,4 +140,10 @@ a{
 hr{
     margin: 20px 100px;
     border: 1px solid;
+}
+
+header a:hover{
+    border: 1px solid orange;
+    border-radius: 2px;
+    background-color: orange;
 }
